@@ -16,6 +16,7 @@ game_over_surface = font.render("FIM DE JOGO", False, YELLOW)
 score_text_surface = font.render("SCORE", False, YELLOW)
 highscore_text_surface = font.render("HIGH-SCORE", False, YELLOW) 
 
+
 screen = pygame.display.set_mode((SCREEN_WIDTH + OFFSET, SCREEN_HEIGHT + 2*OFFSET))
 pygame.display.set_caption("Python Space Invaders")
 
@@ -38,6 +39,9 @@ while True:
             sys.exit()
         if event.type == SHOOT_LASER and game.run:
             game.alien_shoot_laser()
+        # if SHOOT_LASER == True:
+            
+
         if event.type == MYSTERYSHIP and game.run:
             game.create_mystery_ship()
             pygame.time.set_timer(MYSTERYSHIP,random.randint(4000,8000))
@@ -89,3 +93,5 @@ while True:
 
     pygame.display.update()
     clock.tick(60)
+
+

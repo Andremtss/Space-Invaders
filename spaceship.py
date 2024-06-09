@@ -16,6 +16,7 @@ class Spaceship(pygame.sprite.Sprite):
         self.laser_delay = 300
         self.laser_sound = pygame.mixer.Sound("musica/laser.ogg")
 
+
     def get_user_input(self):
         keys = pygame.key.get_pressed()
 
@@ -53,6 +54,3 @@ class Spaceship(pygame.sprite.Sprite):
     def reset(self):
         self.rect = self.image.get_rect(midbottom = ((self.screen_width + self.offset)/2, self.screen_height))
         self.lasers_group.empty()
-
-
-
