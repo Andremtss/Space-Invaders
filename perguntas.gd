@@ -38,7 +38,7 @@ var perguntas = [
 		"resposta_correta": "C) Tétano"
 	},
 	{
-		"pergunta": "Qual das seguintes características é verdadeira para os vírus?a'?",
+		"pergunta": "Qual das seguintes características é verdadeira para os vírus?",
 		"respostas": ["A) Eles podem crescer em meios de cultura sem células vivas.", "B)  Eles são visíveis ao microscópio óptico comum.", "C) Eles possuem material genético que pode ser DNA ou RNA, mas não ambos.", "D) Eles sempre possuem uma membrana lipídica."],
 		"resposta_correta": "C)Eles possuem material genético que pode ser DNA ou RNA, mas não ambos.
 "
@@ -53,16 +53,7 @@ var perguntas = [
 		"respostas": ["A) Realizar a fotossíntese.", "B) Conter genes que podem conferir resistência a antibióticos.", "C) Ser a principal estrutura de movimentação da célula.", "D) Armazenar nutrientes para períodos de escassez."],
 		"resposta_correta": "B) Conter genes que podem conferir resistência a antibióticos."
 	},
-	{
-		"pergunta": "Qual é o maior deserto do mundo?",
-		"respostas": ["A) Deserto de Gobi", "B) Deserto do Saara", "C) Deserto de Kalahari", "D) Deserto de Atacama"],
-		"resposta_correta": "B) Deserto do Saara"
-	},
-	{
-		"pergunta": "Qual é a capital do Japão?",
-		"respostas": ["A) Xangai", "B) Hong Kong", "C) Pequim", "D) Tóquio"],
-		"resposta_correta": "D) Tóquio"
-	}
+
 
 	# Adicione mais perguntas aqui...
 ]
